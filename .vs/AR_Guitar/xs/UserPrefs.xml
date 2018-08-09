@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{71EEF341-143B-EC2C-59F6-3690C0DD443E}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/AudioScripts/PitchDetector.cs">
+    <Files>
+      <File FileName="Assets/Scripts/NoteFactory.cs" Line="12" Column="28" />
+      <File FileName="Assets/Scripts/NoteBehavior.cs" Line="13" Column="57" />
+      <File FileName="Assets/AudioScripts/PitchDetector.cs" Line="49" Column="29" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp-Editor PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

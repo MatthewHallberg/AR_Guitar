@@ -1,9 +1,9 @@
-
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{71EEF341-143B-EC2C-59F6-3690C0DD443E}"
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio for Mac
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AR_Guitar", "Assembly-CSharp.csproj", "{71EEF341-143B-EC2C-59F6-3690C0DD443E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{11D8F5C6-55AE-CCC1-492A-BF904E661562}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AR_Guitar", "Assembly-CSharp-Editor.csproj", "{11D8F5C6-55AE-CCC1-492A-BF904E661562}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,8 +22,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal

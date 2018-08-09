@@ -5,7 +5,7 @@ using UnityEngine.Audio;
 [RequireComponent(typeof(AudioSource))]
 public class MicrophoneFeed : MonoBehaviour
 {
-    public bool useMicrophone = false;
+    private bool useMicrophone = true;
 
     private AudioSource source;
     private string device;
@@ -43,11 +43,5 @@ public class MicrophoneFeed : MonoBehaviour
                 source.Play();
             }
         }
-    }
-
-    void OnGUI()
-    {
-        if (GUILayout.Button(useMicrophone ? "Disable microphone" : "Enable microphone"))
-            useMicrophone = !useMicrophone;
     }
 }
