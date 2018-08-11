@@ -151,7 +151,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    iOS: com.matthewhallberg.AR_Guitar
+    iOS: com.matthewhallberg.guitar
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 18
@@ -310,7 +310,7 @@ PlayerSettings:
   enableCrashReportAPI: 0
   cameraUsageDescription: GUITAR
   locationUsageDescription: 
-  microphoneUsageDescription: 
+  microphoneUsageDescription: NOTES
   switchNetLibKey: 
   switchSocketMemoryPoolSize: 6144
   switchSocketAllocatorPoolSize: 128

@@ -1,54 +1,25 @@
 Base path: /Applications/Unity/Unity.app/Contents
 Cmd: initializeCompiler
-Cmd: translateComputeKernel
-  api=14 insize=48553 outsize=85569 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=5188 outsize=10537 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=5397 outsize=7573 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=9421 outsize=9937 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=1470 outsize=1053 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=1093 outsize=1081 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=16784 outsize=5777 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=16784 outsize=6377 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=16784 outsize=7265 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=16784 outsize=9761 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=16784 outsize=6845 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=16784 outsize=7925 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=16784 outsize=7829 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=16784 outsize=8737 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=16784 outsize=11233 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=16784 outsize=12113 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=5853 outsize=10385 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=6033 outsize=10353 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=7301 outsize=12881 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=7545 outsize=13825 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=10497 outsize=19889 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=7869 outsize=14345 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=8773 outsize=16165 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=9017 outsize=17205 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=11513 outsize=22337 ok=1
-
-Quitting shader compiler process
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler

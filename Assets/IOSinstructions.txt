@@ -1,0 +1,7 @@
+After building and opening in xCode:
+In UnityAppController.h, #import "AudioPluginInterface.h"
+In UnityAppController.mm, add the following line to preStartUnity{}:
+UnityRegisterAudioPlugin(&UnityGetAudioEffectDefinitions);
+Comment out all errors from OSX as you get them, then everything will work.
+I built the static library for arm64 only so it probably wont work on iPads,
+Also I didnt even attempt to get it working on Android.

@@ -6,15 +6,22 @@ using UnityEngine.UI;
 using System.Collections.Generic;
 using System.Linq;
 
-public class PitchDetector : MonoBehaviour
-{
-    [DllImport("AudioPluginDemo")]
-    private static extern float PitchDetectorGetFreq(int index);
+public class PitchDetector : MonoBehaviour {
 
-    [DllImport("AudioPluginDemo")]
-    private static extern int PitchDetectorDebug(float[] data);
+#if UNITY_IPHONE
+	[DllImport ("__Internal")]
+	private static extern int PitchDetectorDebug (float [] data);
+	[DllImport ("__Internal")]
+	private static extern float PitchDetectorGetFreq (int index);
+#else
+	[DllImport ("AudioPluginDemo")]
+	private static extern int PitchDetectorDebug (float [] data);
+	[DllImport ("AudioPluginDemo")]
+	private static extern float PitchDetectorGetFreq (int index);
+#endif
 
-    float[] history = new float[1000];
+
+	float[] history = new float[1000];
     float[] debug = new float[65536];
 
     string[] noteNames = { "C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B" };

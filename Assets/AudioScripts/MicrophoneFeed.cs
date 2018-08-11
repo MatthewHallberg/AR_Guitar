@@ -5,7 +5,7 @@ using UnityEngine.Audio;
 [RequireComponent(typeof(AudioSource))]
 public class MicrophoneFeed : MonoBehaviour
 {
-    private bool useMicrophone = true;
+	private bool useMicrophone = true;
 
     private AudioSource source;
     private string device;

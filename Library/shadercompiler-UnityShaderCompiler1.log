@@ -1,60 +1,25 @@
 Base path: /Applications/Unity/Unity.app/Contents
 Cmd: initializeCompiler
-Cmd: compileComputeKernel
-  api=14 insize=2134 outsize=789 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=2149 outsize=3977 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=2863 outsize=48933 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=5188 outsize=5509 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=5765 outsize=8357 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=9621 outsize=16409 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=1470 outsize=1049 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=5591 outsize=7001 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=7001 outsize=13513 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=2021 outsize=3169 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=1478 outsize=16661 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=16661 outsize=31509 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=16784 outsize=6089 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=16784 outsize=6689 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=16784 outsize=8249 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=16784 outsize=8453 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=16784 outsize=10641 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=16784 outsize=9533 ok=1
-Cmd: compileComputeKernel
-  api=14 insize=16784 outsize=11909 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=5469 outsize=9609 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=6417 outsize=11129 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=7829 outsize=13905 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=8073 outsize=14937 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=7305 outsize=13553 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=7485 outsize=13545 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=9573 outsize=17821 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=11945 outsize=22421 ok=1
-Cmd: translateComputeKernel
-  api=14 insize=11969 outsize=23257 ok=1
-
-Quitting shader compiler process
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
