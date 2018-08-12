@@ -725,6 +725,8 @@ extern const Il2CppType Vector2Field_t3950563844_0_0_0;
 extern const Il2CppType Vector3Field_t3952595460_0_0_0;
 extern const Il2CppType Vector4Field_t3946500612_0_0_0;
 extern const Il2CppType VolumeProfile_t1487161726_0_0_0;
+extern const Il2CppType TrailRenderer_t1820797054_0_0_0;
+extern const Il2CppType LessonBehavior_t1408707775_0_0_0;
 extern const Il2CppType GUIText_t402233326_0_0_0;
 extern const Il2CppType Rigidbody_t3916780224_0_0_0;
 extern const Il2CppType AudioSource_t3935305588_0_0_0;
@@ -2858,6 +2860,10 @@ static const RuntimeType* GenInst_Vector4Field_t3946500612_0_0_0_Types[] = { (&V
 extern const Il2CppGenericInst GenInst_Vector4Field_t3946500612_0_0_0 = { 1, GenInst_Vector4Field_t3946500612_0_0_0_Types };
 static const RuntimeType* GenInst_VolumeProfile_t1487161726_0_0_0_Types[] = { (&VolumeProfile_t1487161726_0_0_0) };
 extern const Il2CppGenericInst GenInst_VolumeProfile_t1487161726_0_0_0 = { 1, GenInst_VolumeProfile_t1487161726_0_0_0_Types };
+static const RuntimeType* GenInst_TrailRenderer_t1820797054_0_0_0_Types[] = { (&TrailRenderer_t1820797054_0_0_0) };
+extern const Il2CppGenericInst GenInst_TrailRenderer_t1820797054_0_0_0 = { 1, GenInst_TrailRenderer_t1820797054_0_0_0_Types };
+static const RuntimeType* GenInst_LessonBehavior_t1408707775_0_0_0_Types[] = { (&LessonBehavior_t1408707775_0_0_0) };
+extern const Il2CppGenericInst GenInst_LessonBehavior_t1408707775_0_0_0 = { 1, GenInst_LessonBehavior_t1408707775_0_0_0_Types };
 static const RuntimeType* GenInst_GUIText_t402233326_0_0_0_Types[] = { (&GUIText_t402233326_0_0_0) };
 extern const Il2CppGenericInst GenInst_GUIText_t402233326_0_0_0 = { 1, GenInst_GUIText_t402233326_0_0_0_Types };
 static const RuntimeType* GenInst_Rigidbody_t3916780224_0_0_0_Types[] = { (&Rigidbody_t3916780224_0_0_0) };
@@ -3614,7 +3620,7 @@ static const RuntimeType* GenInst_VolumeParameter_1_t4078826557_0_0_0_Types[] = 
 extern const Il2CppGenericInst GenInst_VolumeParameter_1_t4078826557_0_0_0 = { 1, GenInst_VolumeParameter_1_t4078826557_0_0_0_Types };
 static const RuntimeType* GenInst_VolumeParameter_1_t2051106872_0_0_0_Types[] = { (&VolumeParameter_1_t2051106872_0_0_0) };
 extern const Il2CppGenericInst GenInst_VolumeParameter_1_t2051106872_0_0_0 = { 1, GenInst_VolumeParameter_1_t2051106872_0_0_0_Types };
-extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[1313] = 
+extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[1315] = 
 {
 	&GenInst_RuntimeObject_0_0_0,
 	&GenInst_Int32_t2950945753_0_0_0,
@@ -4551,6 +4557,8 @@ extern const Il2CppGenericInst* const g_Il2CppGenericInstTable[1313] =
 	&GenInst_Vector3Field_t3952595460_0_0_0,
 	&GenInst_Vector4Field_t3946500612_0_0_0,
 	&GenInst_VolumeProfile_t1487161726_0_0_0,
+	&GenInst_TrailRenderer_t1820797054_0_0_0,
+	&GenInst_LessonBehavior_t1408707775_0_0_0,
 	&GenInst_GUIText_t402233326_0_0_0,
 	&GenInst_Rigidbody_t3916780224_0_0_0,
 	&GenInst_AudioSource_t3935305588_0_0_0,

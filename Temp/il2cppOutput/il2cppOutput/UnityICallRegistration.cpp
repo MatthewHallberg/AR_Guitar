@@ -3512,6 +3512,14 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.TouchScreenKeyboard
 
+	//Start Registrations for type : UnityEngine.TrailRenderer
+
+		//System.Void UnityEngine.TrailRenderer::set_emitting(System.Boolean)
+		void Register_UnityEngine_TrailRenderer_set_emitting();
+		Register_UnityEngine_TrailRenderer_set_emitting();
+
+	//End Registrations for type : UnityEngine.TrailRenderer
+
 	//Start Registrations for type : UnityEngine.Transform
 
 		//System.Boolean UnityEngine.Transform::IsChildOf(UnityEngine.Transform)

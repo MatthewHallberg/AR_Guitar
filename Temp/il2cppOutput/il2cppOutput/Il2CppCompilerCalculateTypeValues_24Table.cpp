@@ -2744,47 +2744,6 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // DATASETTARGETSIZE_T648464127_H
-#ifndef DEDICATEDEYEWEARDEVICE_T2070131990_H
-#define DEDICATEDEYEWEARDEVICE_T2070131990_H
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-
-// Vuforia.DedicatedEyewearDevice
-struct  DedicatedEyewearDevice_t2070131990  : public EyewearDevice_t3223385723
-{
-public:
-	// Vuforia.EyewearCalibrationProfileManager Vuforia.DedicatedEyewearDevice::mProfileManager
-	EyewearCalibrationProfileManager_t947793426 * ___mProfileManager_1;
-	// Vuforia.EyewearUserCalibrator Vuforia.DedicatedEyewearDevice::mCalibrator
-	EyewearUserCalibrator_t2926839199 * ___mCalibrator_2;
-
-public:
-	inline static int32_t get_offset_of_mProfileManager_1() { return static_cast<int32_t>(offsetof(DedicatedEyewearDevice_t2070131990, ___mProfileManager_1)); }
-	inline EyewearCalibrationProfileManager_t947793426 * get_mProfileManager_1() const { return ___mProfileManager_1; }
-	inline EyewearCalibrationProfileManager_t947793426 ** get_address_of_mProfileManager_1() { return &___mProfileManager_1; }
-	inline void set_mProfileManager_1(EyewearCalibrationProfileManager_t947793426 * value)
-	{
-		___mProfileManager_1 = value;
-		Il2CppCodeGenWriteBarrier((&___mProfileManager_1), value);
-	}
-
-	inline static int32_t get_offset_of_mCalibrator_2() { return static_cast<int32_t>(offsetof(DedicatedEyewearDevice_t2070131990, ___mCalibrator_2)); }
-	inline EyewearUserCalibrator_t2926839199 * get_mCalibrator_2() const { return ___mCalibrator_2; }
-	inline EyewearUserCalibrator_t2926839199 ** get_address_of_mCalibrator_2() { return &___mCalibrator_2; }
-	inline void set_mCalibrator_2(EyewearUserCalibrator_t2926839199 * value)
-	{
-		___mCalibrator_2 = value;
-		Il2CppCodeGenWriteBarrier((&___mCalibrator_2), value);
-	}
-};
-
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#endif // DEDICATEDEYEWEARDEVICE_T2070131990_H
 #ifndef TRACKING_MODE_T4048578679_H
 #define TRACKING_MODE_T4048578679_H
 #ifdef __clang__
@@ -6391,70 +6350,75 @@ public:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2400 = { sizeof (U3CU3Ec_t1040550284), -1, sizeof(U3CU3Ec_t1040550284_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable2400[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2400 = { sizeof (PositionalDeviceTrackerImpl_t1314438186), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2400[1] = 
+{
+	PositionalDeviceTrackerImpl_t1314438186::get_offset_of_mAnchorRemovedEvent_1(),
+};
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2401 = { sizeof (U3CU3Ec_t1040550284), -1, sizeof(U3CU3Ec_t1040550284_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable2401[2] = 
 {
 	U3CU3Ec_t1040550284_StaticFields::get_offset_of_U3CU3E9_0(),
 	U3CU3Ec_t1040550284_StaticFields::get_offset_of_U3CU3E9__13_0_1(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2401 = { sizeof (PositionalPlayModeDeviceTrackerImpl_t1348222404), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2401[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2402 = { sizeof (PositionalPlayModeDeviceTrackerImpl_t1348222404), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2402[1] = 
 {
 	PositionalPlayModeDeviceTrackerImpl_t1348222404::get_offset_of_mEmulatorDataset_2(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2402 = { sizeof (PositionalDeviceTracker_t656722001), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2403 = { sizeof (StaticWebCamTexAdaptor_t4059221982), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2403[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2403 = { sizeof (PositionalDeviceTracker_t656722001), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2404 = { sizeof (StaticWebCamTexAdaptor_t4059221982), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2404[1] = 
 {
 	StaticWebCamTexAdaptor_t4059221982::get_offset_of_U3CTextureU3Ek__BackingField_0(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2404 = { sizeof (AnchorBehaviour_t2000812465), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2404[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2405 = { sizeof (AnchorBehaviour_t2000812465), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2405[4] = 
 {
 	AnchorBehaviour_t2000812465::get_offset_of_mSelectedStageType_12(),
 	AnchorBehaviour_t2000812465::get_offset_of_mPlaneReference_13(),
 	AnchorBehaviour_t2000812465::get_offset_of_mMidAirReference_14(),
 	AnchorBehaviour_t2000812465::get_offset_of_mAnchor_15(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2405 = { sizeof (GuideViewCameraBehaviour_t721959276), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2406 = { sizeof (DataSetExtendedTrackingImpl_t3413727792), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2406[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2406 = { sizeof (GuideViewCameraBehaviour_t721959276), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2407 = { sizeof (DataSetExtendedTrackingImpl_t3413727792), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2407[2] = 
 {
 	DataSetExtendedTrackingImpl_t3413727792::get_offset_of_mId_0(),
 	DataSetExtendedTrackingImpl_t3413727792::get_offset_of_mDataSetPtr_1(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2407 = { sizeof (DisabledExtendedTrackingImpl_t4193346383), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2408 = { sizeof (ModelTargetBoundingBoxImpl_t1878120817), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2408[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2408 = { sizeof (DisabledExtendedTrackingImpl_t4193346383), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2409 = { sizeof (ModelTargetBoundingBoxImpl_t1878120817), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2409[2] = 
 {
 	ModelTargetBoundingBoxImpl_t1878120817::get_offset_of_mDataSet_0(),
 	ModelTargetBoundingBoxImpl_t1878120817::get_offset_of_mName_1(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2409 = { sizeof (VuforiaNativeExtendedTrackingImpl_t571837481), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2409[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2410 = { sizeof (VuforiaNativeExtendedTrackingImpl_t571837481), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2410[2] = 
 {
 	VuforiaNativeExtendedTrackingImpl_t571837481::get_offset_of_mId_0(),
 	VuforiaNativeExtendedTrackingImpl_t571837481::get_offset_of_mDataSetPtr_1(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2410 = { sizeof (AndroidDatasets_t3742019579), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2411 = { sizeof (AndroidUnityPlayer_t2737599080), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2412 = { sizeof (IOSUnityPlayer_t2555589894), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2412[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2411 = { sizeof (AndroidDatasets_t3742019579), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2412 = { sizeof (AndroidUnityPlayer_t2737599080), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2413 = { sizeof (IOSUnityPlayer_t2555589894), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2413[1] = 
 {
 	IOSUnityPlayer_t2555589894::get_offset_of_mScreenOrientation_0(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2413 = { sizeof (PlatformRuntimeInitialization_t3141452252), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2414 = { sizeof (PlayModeUnityPlayer_t3763348594), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2415 = { sizeof (WSAUnityPlayer_t3135728299), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2416 = { sizeof (VideoBackgroundDefaultProvider_t2109766439), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2416[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2414 = { sizeof (PlatformRuntimeInitialization_t3141452252), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2415 = { sizeof (PlayModeUnityPlayer_t3763348594), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2416 = { sizeof (WSAUnityPlayer_t3135728299), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2417 = { sizeof (VideoBackgroundDefaultProvider_t2109766439), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2417[3] = 
 {
 	0,
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2417 = { sizeof (PlanesHideExcessAreaClipping_t1460129200), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2417[5] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2418 = { sizeof (PlanesHideExcessAreaClipping_t1460129200), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2418[5] = 
 {
 	0,
 	PlanesHideExcessAreaClipping_t1460129200::get_offset_of_mMatteShader_1(),
@@ -6462,8 +6426,8 @@ extern const int32_t g_FieldOffsetTable2417[5] =
 	PlanesHideExcessAreaClipping_t1460129200::get_offset_of_mPlanesActivated_3(),
 	PlanesHideExcessAreaClipping_t1460129200::get_offset_of_mClippingScale_4(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2418 = { sizeof (PlanePos_t1459879262)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable2418[5] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2419 = { sizeof (PlanePos_t1459879262)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable2419[5] = 
 {
 	PlanePos_t1459879262::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
@@ -6471,16 +6435,16 @@ extern const int32_t g_FieldOffsetTable2418[5] =
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2419 = { sizeof (VuforiaVRDeviceCameraConfiguration_t3308462389), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2419[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2420 = { sizeof (VuforiaVRDeviceCameraConfiguration_t3308462389), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2420[3] = 
 {
 	0,
 	VuforiaVRDeviceCameraConfiguration_t3308462389::get_offset_of_mStereoOffset_27(),
 	VuforiaVRDeviceCameraConfiguration_t3308462389::get_offset_of_mDelayedVideoBackgroundEnabledChanged_28(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2420 = { 0, -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2421 = { sizeof (StereoProjMatrixStore_t888524276), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2421[11] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2421 = { 0, -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2422 = { sizeof (StereoProjMatrixStore_t888524276), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2422[11] = 
 {
 	StereoProjMatrixStore_t888524276::get_offset_of_mCamera_0(),
 	StereoProjMatrixStore_t888524276::get_offset_of_mProjectionMatrices_1(),
@@ -6494,21 +6458,21 @@ extern const int32_t g_FieldOffsetTable2421[11] =
 	StereoProjMatrixStore_t888524276::get_offset_of_mRightEyeOffsetMatrix_9(),
 	StereoProjMatrixStore_t888524276::get_offset_of_mMode_10(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2422 = { sizeof (Mode_t2291249183)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable2422[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2423 = { sizeof (Mode_t2291249183)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable2423[3] = 
 {
 	Mode_t2291249183::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2423 = { sizeof (ExternalVRDeviceCameraConfiguration_t152468891), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2423[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2424 = { sizeof (ExternalVRDeviceCameraConfiguration_t152468891), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2424[2] = 
 {
 	0,
 	ExternalVRDeviceCameraConfiguration_t152468891::get_offset_of_mLastWorldCenterMode_27(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2424 = { sizeof (VRDeviceCameraConfiguration_t3015543037), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2424[15] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2425 = { sizeof (VRDeviceCameraConfiguration_t3015543037), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2425[15] = 
 {
 	0,
 	VRDeviceCameraConfiguration_t3015543037::get_offset_of_mCamera_12(),
@@ -6526,8 +6490,8 @@ extern const int32_t g_FieldOffsetTable2424[15] =
 	VRDeviceCameraConfiguration_t3015543037::get_offset_of_mCenterToEyeAxis_24(),
 	VRDeviceCameraConfiguration_t3015543037::get_offset_of_mVrDeviceController_25(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2425 = { sizeof (DigitalEyewearARController_t1054226036), -1, sizeof(DigitalEyewearARController_t1054226036_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable2425[21] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2426 = { sizeof (DigitalEyewearARController_t1054226036), -1, sizeof(DigitalEyewearARController_t1054226036_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable2426[21] = 
 {
 	0,
 	0,
@@ -6551,29 +6515,29 @@ extern const int32_t g_FieldOffsetTable2425[21] =
 	DigitalEyewearARController_t1054226036_StaticFields::get_offset_of_mInstance_20(),
 	DigitalEyewearARController_t1054226036_StaticFields::get_offset_of_mPadlock_21(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2426 = { sizeof (EyewearType_t2277580470)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable2426[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2427 = { sizeof (EyewearType_t2277580470)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable2427[4] = 
 {
 	EyewearType_t2277580470::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2427 = { sizeof (StereoFramework_t3144873991)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable2427[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2428 = { sizeof (StereoFramework_t3144873991)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable2428[2] = 
 {
 	StereoFramework_t3144873991::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2428 = { sizeof (SeeThroughConfiguration_t568665021)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable2428[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2429 = { sizeof (SeeThroughConfiguration_t568665021)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable2429[3] = 
 {
 	SeeThroughConfiguration_t568665021::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2429 = { sizeof (SerializableViewerParameters_t2043332680), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2429[11] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2430 = { sizeof (SerializableViewerParameters_t2043332680), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2430[11] = 
 {
 	SerializableViewerParameters_t2043332680::get_offset_of_Version_0(),
 	SerializableViewerParameters_t2043332680::get_offset_of_Name_1(),
@@ -6587,41 +6551,41 @@ extern const int32_t g_FieldOffsetTable2429[11] =
 	SerializableViewerParameters_t2043332680::get_offset_of_FieldOfView_9(),
 	SerializableViewerParameters_t2043332680::get_offset_of_ContainsMagnet_10(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2430 = { sizeof (UnityComponentExtensions_t3737347336), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2431 = { sizeof (AValidatableVideoBackgroundConfigProperty_t1108088413), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2431[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2431 = { sizeof (UnityComponentExtensions_t3737347336), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2432 = { sizeof (AValidatableVideoBackgroundConfigProperty_t1108088413), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2432[2] = 
 {
 	AValidatableVideoBackgroundConfigProperty_t1108088413::get_offset_of_Config_0(),
 	AValidatableVideoBackgroundConfigProperty_t1108088413::get_offset_of_DefaultProvider_1(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2432 = { sizeof (MatteShaderProperty_t20537457), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2433 = { sizeof (NumDivisionsProperty_t690697662), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2433[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2433 = { sizeof (MatteShaderProperty_t20537457), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2434 = { sizeof (NumDivisionsProperty_t690697662), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2434[1] = 
 {
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2434 = { sizeof (VideoBackgroundConfigValidator_t1958892045), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2434[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2435 = { sizeof (VideoBackgroundConfigValidator_t1958892045), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2435[1] = 
 {
 	VideoBackgroundConfigValidator_t1958892045::get_offset_of_mValidatableProperties_0(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2435 = { sizeof (U3CU3Ec__DisplayClass2_0_t1369985473), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2435[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2436 = { sizeof (U3CU3Ec__DisplayClass2_0_t1369985473), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2436[1] = 
 {
 	U3CU3Ec__DisplayClass2_0_t1369985473::get_offset_of_res_0(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2436 = { sizeof (VideoBackgroundShaderProperty_t2141633175), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2437 = { sizeof (EyewearDevice_t3223385723), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2438 = { sizeof (EyeID_t263427581)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable2438[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2437 = { sizeof (VideoBackgroundShaderProperty_t2141633175), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2438 = { sizeof (EyewearDevice_t3223385723), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2439 = { sizeof (EyeID_t263427581)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable2439[4] = 
 {
 	EyeID_t263427581::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2439 = { sizeof (EyewearCalibrationReading_t664929988)+ sizeof (RuntimeObject), sizeof(EyewearCalibrationReading_t664929988_marshaled_pinvoke), 0, 0 };
-extern const int32_t g_FieldOffsetTable2439[5] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2440 = { sizeof (EyewearCalibrationReading_t664929988)+ sizeof (RuntimeObject), sizeof(EyewearCalibrationReading_t664929988_marshaled_pinvoke), 0, 0 };
+extern const int32_t g_FieldOffsetTable2440[5] = 
 {
 	EyewearCalibrationReading_t664929988::get_offset_of_pose_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	EyewearCalibrationReading_t664929988::get_offset_of_scale_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
@@ -6629,37 +6593,37 @@ extern const int32_t g_FieldOffsetTable2439[5] =
 	EyewearCalibrationReading_t664929988::get_offset_of_centerY_3() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	EyewearCalibrationReading_t664929988::get_offset_of_type_4() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2440 = { sizeof (AlignmentType_t1920855420)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable2440[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2441 = { sizeof (AlignmentType_t1920855420)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable2441[4] = 
 {
 	AlignmentType_t1920855420::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2441 = { sizeof (GuideView_t516481509), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2441[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2442 = { sizeof (GuideView_t516481509), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2442[4] = 
 {
 	GuideView_t516481509::get_offset_of_U3CImageU3Ek__BackingField_0(),
 	GuideView_t516481509::get_offset_of_mInstancePtr_1(),
 	GuideView_t516481509::get_offset_of_mPose_2(),
 	GuideView_t516481509::get_offset_of_PropertyChanged_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2442 = { sizeof (GuideView2DBehaviour_t1196801781), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2442[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2443 = { sizeof (GuideView2DBehaviour_t1196801781), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2443[4] = 
 {
 	GuideView2DBehaviour_t1196801781::get_offset_of_mCameraAspect_4(),
 	GuideView2DBehaviour_t1196801781::get_offset_of_mCameraFOV_5(),
 	GuideView2DBehaviour_t1196801781::get_offset_of_mCameraNearPlane_6(),
 	GuideView2DBehaviour_t1196801781::get_offset_of_mGuideViewTexture_7(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2443 = { sizeof (GuideView3DBehaviour_t1129627381), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2443[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2444 = { sizeof (GuideView3DBehaviour_t1129627381), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2444[1] = 
 {
 	GuideView3DBehaviour_t1129627381::get_offset_of_mCurrentGuideView_4(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2444 = { sizeof (GuideViewRenderingBehaviour_t333084580), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2444[11] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2445 = { sizeof (GuideViewRenderingBehaviour_t333084580), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2445[11] = 
 {
 	GuideViewRenderingBehaviour_t333084580::get_offset_of_guideReappearanceDelay_4(),
 	0,
@@ -6673,31 +6637,31 @@ extern const int32_t g_FieldOffsetTable2444[11] =
 	GuideViewRenderingBehaviour_t333084580::get_offset_of_mGuideViewShown_13(),
 	GuideViewRenderingBehaviour_t333084580::get_offset_of_mPrevDepthTextureMode_14(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2445 = { sizeof (U3CShowGuideViewAfterU3Ed__22_t948075970), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2445[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2446 = { sizeof (U3CShowGuideViewAfterU3Ed__22_t948075970), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2446[4] = 
 {
 	U3CShowGuideViewAfterU3Ed__22_t948075970::get_offset_of_U3CU3E1__state_0(),
 	U3CShowGuideViewAfterU3Ed__22_t948075970::get_offset_of_U3CU3E2__current_1(),
 	U3CShowGuideViewAfterU3Ed__22_t948075970::get_offset_of_seconds_2(),
 	U3CShowGuideViewAfterU3Ed__22_t948075970::get_offset_of_U3CU3E4__this_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2446 = { sizeof (U3CSetChildOfVuforiaAnchorU3Ed__23_t1825124191), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2446[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2447 = { sizeof (U3CSetChildOfVuforiaAnchorU3Ed__23_t1825124191), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2447[3] = 
 {
 	U3CSetChildOfVuforiaAnchorU3Ed__23_t1825124191::get_offset_of_U3CU3E1__state_0(),
 	U3CSetChildOfVuforiaAnchorU3Ed__23_t1825124191::get_offset_of_U3CU3E2__current_1(),
 	U3CSetChildOfVuforiaAnchorU3Ed__23_t1825124191::get_offset_of_U3CU3E4__this_2(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2447 = { 0, -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2448 = { sizeof (ModelTargetImpl_t417568536), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2448[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2448 = { 0, -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2449 = { sizeof (ModelTargetImpl_t417568536), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2449[2] = 
 {
 	ModelTargetImpl_t417568536::get_offset_of_mBoundingBoxImpl_5(),
 	ModelTargetImpl_t417568536::get_offset_of_mLoadedGuideViews_6(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2449 = { 0, -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2450 = { sizeof (ModelTargetBehaviour_t712978329), -1, sizeof(ModelTargetBehaviour_t712978329_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable2450[23] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2450 = { 0, -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2451 = { sizeof (ModelTargetBehaviour_t712978329), -1, sizeof(ModelTargetBehaviour_t712978329_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable2451[23] = 
 {
 	ModelTargetBehaviour_t712978329::get_offset_of_mModelTarget_13(),
 	ModelTargetBehaviour_t712978329_StaticFields::get_offset_of_GUIDE_VIEW_RENDERER_NAME_14(),
@@ -6723,57 +6687,57 @@ extern const int32_t g_FieldOffsetTable2450[23] =
 	ModelTargetBehaviour_t712978329::get_offset_of_mLastSize_34(),
 	ModelTargetBehaviour_t712978329::get_offset_of_mDataSetIsActive_35(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2451 = { sizeof (GuideViewDisplayMode_t3044577557)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable2451[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2452 = { sizeof (GuideViewDisplayMode_t3044577557)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable2452[4] = 
 {
 	GuideViewDisplayMode_t3044577557::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2452 = { sizeof (GLErrorHandler_t2139335054), -1, sizeof(GLErrorHandler_t2139335054_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable2452[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2453 = { sizeof (GLErrorHandler_t2139335054), -1, sizeof(GLErrorHandler_t2139335054_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable2453[3] = 
 {
 	GLErrorHandler_t2139335054_StaticFields::get_offset_of_mErrorText_4(),
 	GLErrorHandler_t2139335054_StaticFields::get_offset_of_mErrorOccurred_5(),
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2453 = { sizeof (MaskOutBehaviour_t2745617306), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2453[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2454 = { sizeof (MaskOutBehaviour_t2745617306), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2454[1] = 
 {
 	MaskOutBehaviour_t2745617306::get_offset_of_maskMaterial_4(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2454 = { sizeof (AnchorData_t2632799083)+ sizeof (RuntimeObject), sizeof(AnchorData_t2632799083 ), 0, 0 };
-extern const int32_t g_FieldOffsetTable2454[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2455 = { sizeof (AnchorData_t2632799083)+ sizeof (RuntimeObject), sizeof(AnchorData_t2632799083 ), 0, 0 };
+extern const int32_t g_FieldOffsetTable2455[2] = 
 {
 	AnchorData_t2632799083::get_offset_of_id_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	AnchorData_t2632799083::get_offset_of_unused_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2455 = { sizeof (SmartTerrainARController_t266173502), -1, sizeof(SmartTerrainARController_t266173502_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable2455[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2456 = { sizeof (SmartTerrainARController_t266173502), -1, sizeof(SmartTerrainARController_t266173502_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable2456[3] = 
 {
 	SmartTerrainARController_t266173502_StaticFields::get_offset_of_mInstance_1(),
 	SmartTerrainARController_t266173502::get_offset_of_mAutoInitAndStartTracker_2(),
 	SmartTerrainARController_t266173502::get_offset_of_mState_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2456 = { sizeof (State_t2379274444)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable2456[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2457 = { sizeof (State_t2379274444)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable2457[4] = 
 {
 	State_t2379274444::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2457 = { sizeof (StageType_t836129719)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable2457[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2458 = { sizeof (StageType_t836129719)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable2458[3] = 
 {
 	StageType_t836129719::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2458 = { sizeof (ContentPlacedEvent_t1248306887), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2459 = { sizeof (ContentPositioningBehaviour_t532953367), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2459[8] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2459 = { sizeof (ContentPlacedEvent_t1248306887), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2460 = { sizeof (ContentPositioningBehaviour_t532953367), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2460[8] = 
 {
 	ContentPositioningBehaviour_t532953367::get_offset_of_AnchorStage_4(),
 	ContentPositioningBehaviour_t532953367::get_offset_of_DuplicateStage_5(),
@@ -6784,31 +6748,31 @@ extern const int32_t g_FieldOffsetTable2459[8] =
 	ContentPositioningBehaviour_t532953367::get_offset_of_mDeviceTracker_10(),
 	ContentPositioningBehaviour_t532953367::get_offset_of_mInstantiatedAnchors_11(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2460 = { sizeof (U3CU3Ec__DisplayClass10_0_t2105315174), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2460[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2461 = { sizeof (U3CU3Ec__DisplayClass10_0_t2105315174), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2461[2] = 
 {
 	U3CU3Ec__DisplayClass10_0_t2105315174::get_offset_of_pose_0(),
 	U3CU3Ec__DisplayClass10_0_t2105315174::get_offset_of_U3CU3E4__this_1(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2461 = { sizeof (U3CU3Ec__DisplayClass11_0_t539231233), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2461[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2462 = { sizeof (U3CU3Ec__DisplayClass11_0_t539231233), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2462[2] = 
 {
 	U3CU3Ec__DisplayClass11_0_t539231233::get_offset_of_hitTestResult_0(),
 	U3CU3Ec__DisplayClass11_0_t539231233::get_offset_of_U3CU3E4__this_1(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2462 = { sizeof (U3CU3Ec__DisplayClass15_0_t2864830061), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2462[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2463 = { sizeof (U3CU3Ec__DisplayClass15_0_t2864830061), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2463[1] = 
 {
 	U3CU3Ec__DisplayClass15_0_t2864830061::get_offset_of_anchor_0(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2463 = { sizeof (AnchorImpl_t2984722254), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2463[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2464 = { sizeof (AnchorImpl_t2984722254), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2464[2] = 
 {
 	AnchorImpl_t2984722254::get_offset_of_mName_0(),
 	AnchorImpl_t2984722254::get_offset_of_mId_1(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2464 = { sizeof (MidAirPositionerBehaviour_t496142225), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2464[5] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2465 = { sizeof (MidAirPositionerBehaviour_t496142225), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2465[5] = 
 {
 	MidAirPositionerBehaviour_t496142225::get_offset_of_DistanceToCamera_4(),
 	MidAirPositionerBehaviour_t496142225::get_offset_of_MidAirIndicator_5(),
@@ -6816,32 +6780,32 @@ extern const int32_t g_FieldOffsetTable2464[5] =
 	MidAirPositionerBehaviour_t496142225::get_offset_of_mCamera_7(),
 	MidAirPositionerBehaviour_t496142225::get_offset_of_mDisplayAdvanced_8(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2465 = { sizeof (AnchorPositionConfirmedEvent_t1081533940), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2466 = { sizeof (AnchorInputListenerBehaviour_t804765297), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2466[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2466 = { sizeof (AnchorPositionConfirmedEvent_t1081533940), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2467 = { sizeof (AnchorInputListenerBehaviour_t804765297), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2467[2] = 
 {
 	AnchorInputListenerBehaviour_t804765297::get_offset_of_OnInputReceivedEvent_4(),
 	AnchorInputListenerBehaviour_t804765297::get_offset_of_mDisplayAdvanced_5(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2467 = { sizeof (InputReceivedEvent_t2120347695), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2468 = { sizeof (HitTestEvent_t2785890325), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2469 = { sizeof (HitTestMode_t2615645957)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable2469[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2468 = { sizeof (InputReceivedEvent_t2120347695), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2469 = { sizeof (HitTestEvent_t2785890325), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2470 = { sizeof (HitTestMode_t2615645957)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable2470[3] = 
 {
 	HitTestMode_t2615645957::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2470 = { sizeof (HitTestResultData_t3906960680)+ sizeof (RuntimeObject), sizeof(HitTestResultData_t3906960680_marshaled_pinvoke), 0, 0 };
-extern const int32_t g_FieldOffsetTable2470[4] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2471 = { sizeof (HitTestResultData_t3906960680)+ sizeof (RuntimeObject), sizeof(HitTestResultData_t3906960680_marshaled_pinvoke), 0, 0 };
+extern const int32_t g_FieldOffsetTable2471[4] = 
 {
 	HitTestResultData_t3906960680::get_offset_of_HitTestResultPtr_0() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	HitTestResultData_t3906960680::get_offset_of_Orientation_1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	HitTestResultData_t3906960680::get_offset_of_Position_2() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	HitTestResultData_t3906960680::get_offset_of_Unused_3() + static_cast<int32_t>(sizeof(RuntimeObject)),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2471 = { sizeof (PlaymodeSmartTerrainImpl_t2429186449), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2471[5] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2472 = { sizeof (PlaymodeSmartTerrainImpl_t2429186449), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2472[5] = 
 {
 	0,
 	0,
@@ -6849,24 +6813,24 @@ extern const int32_t g_FieldOffsetTable2471[5] =
 	PlaymodeSmartTerrainImpl_t2429186449::get_offset_of_mEmulatorGroundPlane_4(),
 	PlaymodeSmartTerrainImpl_t2429186449::get_offset_of_mGroundPlaneImageTarget_5(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2472 = { sizeof (U3CU3Ec_t2244329746), -1, sizeof(U3CU3Ec_t2244329746_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable2472[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2473 = { sizeof (U3CU3Ec_t2244329746), -1, sizeof(U3CU3Ec_t2244329746_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable2473[3] = 
 {
 	U3CU3Ec_t2244329746_StaticFields::get_offset_of_U3CU3E9_0(),
 	U3CU3Ec_t2244329746_StaticFields::get_offset_of_U3CU3E9__7_0_1(),
 	U3CU3Ec_t2244329746_StaticFields::get_offset_of_U3CU3E9__7_1_2(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2473 = { sizeof (SmartTerrain_t256094413), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2474 = { sizeof (HitTestResult_t1865677388), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2474[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2474 = { sizeof (SmartTerrain_t256094413), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2475 = { sizeof (HitTestResult_t1865677388), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2475[3] = 
 {
 	HitTestResult_t1865677388::get_offset_of_mPtr_0(),
 	HitTestResult_t1865677388::get_offset_of_mPosition_1(),
 	HitTestResult_t1865677388::get_offset_of_mOrientation_2(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2475 = { sizeof (AnchorStageBehaviour_t4007303661), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2476 = { sizeof (PlaneFinderBehaviour_t3756262673), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2476[11] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2476 = { sizeof (AnchorStageBehaviour_t4007303661), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2477 = { sizeof (PlaneFinderBehaviour_t3756262673), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2477[11] = 
 {
 	PlaneFinderBehaviour_t3756262673::get_offset_of_PlaneIndicator_4(),
 	PlaneFinderBehaviour_t3756262673::get_offset_of_Height_5(),
@@ -6880,25 +6844,25 @@ extern const int32_t g_FieldOffsetTable2476[11] =
 	PlaneFinderBehaviour_t3756262673::get_offset_of_mDisplayAdvanced_13(),
 	PlaneFinderBehaviour_t3756262673::get_offset_of_mHitTestMode_14(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2477 = { sizeof (U3CU3Ec__DisplayClass29_0_t42835299), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2477[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2478 = { sizeof (U3CU3Ec__DisplayClass29_0_t42835299), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2478[1] = 
 {
 	U3CU3Ec__DisplayClass29_0_t42835299::get_offset_of_isVisible_0(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2478 = { sizeof (SmartTerrainImpl_t1195625746), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2479 = { 0, -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2480 = { sizeof (NullHoloLensApiAbstraction_t2968904009), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2481 = { 0, -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2482 = { sizeof (DeviceTracker_t2315692373), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2483 = { sizeof (TRACKING_MODE_t4048578679)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable2483[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2479 = { sizeof (SmartTerrainImpl_t1195625746), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2480 = { 0, -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2481 = { sizeof (NullHoloLensApiAbstraction_t2968904009), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2482 = { 0, -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2483 = { sizeof (DeviceTracker_t2315692373), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2484 = { sizeof (TRACKING_MODE_t4048578679)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable2484[3] = 
 {
 	TRACKING_MODE_t4048578679::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2484 = { sizeof (DeviceTrackerARController_t1095592542), -1, sizeof(DeviceTrackerARController_t1095592542_StaticFields), 0 };
-extern const int32_t g_FieldOffsetTable2484[17] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2485 = { sizeof (DeviceTrackerARController_t1095592542), -1, sizeof(DeviceTrackerARController_t1095592542_StaticFields), 0 };
+extern const int32_t g_FieldOffsetTable2485[17] = 
 {
 	DeviceTrackerARController_t1095592542_StaticFields::get_offset_of_DEFAULT_HEAD_PIVOT_1(),
 	DeviceTrackerARController_t1095592542_StaticFields::get_offset_of_DEFAULT_HANDHELD_PIVOT_2(),
@@ -6918,35 +6882,35 @@ extern const int32_t g_FieldOffsetTable2484[17] =
 	DeviceTrackerARController_t1095592542_StaticFields::get_offset_of_mInstance_16(),
 	DeviceTrackerARController_t1095592542_StaticFields::get_offset_of_mPadlock_17(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2485 = { sizeof (ObjectTargetImpl_t3614635090), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2485[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2486 = { sizeof (ObjectTargetImpl_t3614635090), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2486[2] = 
 {
 	ObjectTargetImpl_t3614635090::get_offset_of_mExtTrackingImpl_2(),
 	ObjectTargetImpl_t3614635090::get_offset_of_mTargetSizeImpl_3(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2486 = { 0, -1, 0, 0 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2487 = { 0, -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2488 = { sizeof (DataSetTargetSize_t648464127), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2488[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2488 = { 0, -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2489 = { sizeof (DataSetTargetSize_t648464127), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2489[3] = 
 {
 	DataSetTargetSize_t648464127::get_offset_of_mSize_0(),
 	DataSetTargetSize_t648464127::get_offset_of_mName_1(),
 	DataSetTargetSize_t648464127::get_offset_of_mDataSet_2(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2489 = { sizeof (CustomDataSetTargetSize_t2186564284), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2489[2] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2490 = { sizeof (CustomDataSetTargetSize_t2186564284), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2490[2] = 
 {
 	CustomDataSetTargetSize_t2186564284::get_offset_of_mInvokeBeforeNativeCall_3(),
 	CustomDataSetTargetSize_t2186564284::get_offset_of_mSetSizeAction_4(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2490 = { sizeof (DisabledSetTargetSize_t3520378128), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2490[1] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2491 = { sizeof (DisabledSetTargetSize_t3520378128), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2491[1] = 
 {
 	DisabledSetTargetSize_t3520378128::get_offset_of_mSize_0(),
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2491 = { sizeof (TurnOffBehaviour_t65964226), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2492 = { sizeof (FusionProviderType_t4010899297)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
-extern const int32_t g_FieldOffsetTable2492[8] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2492 = { sizeof (TurnOffBehaviour_t65964226), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2493 = { sizeof (FusionProviderType_t4010899297)+ sizeof (RuntimeObject), sizeof(int32_t), 0, 0 };
+extern const int32_t g_FieldOffsetTable2493[8] = 
 {
 	FusionProviderType_t4010899297::get_offset_of_value___1() + static_cast<int32_t>(sizeof(RuntimeObject)),
 	0,
@@ -6957,23 +6921,17 @@ extern const int32_t g_FieldOffsetTable2492[8] =
 	0,
 	0,
 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2493 = { sizeof (GameObjectExtensionMethods_t4203643620), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2494 = { sizeof (IEnumerableExtensionMethods_t4160992246), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2495 = { sizeof (DelegateHelper_t3231076514), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2496 = { sizeof (PlayModeEyewearUserCalibratorImpl_t1641351337), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2497 = { sizeof (PlayModeEyewearCalibrationProfileManagerImpl_t3548891370), -1, 0, 0 };
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2498 = { sizeof (PlayModeEyewearDevice_t2403363459), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2498[3] = 
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2494 = { sizeof (GameObjectExtensionMethods_t4203643620), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2495 = { sizeof (IEnumerableExtensionMethods_t4160992246), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2496 = { sizeof (DelegateHelper_t3231076514), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2497 = { sizeof (PlayModeEyewearUserCalibratorImpl_t1641351337), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2498 = { sizeof (PlayModeEyewearCalibrationProfileManagerImpl_t3548891370), -1, 0, 0 };
+extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2499 = { sizeof (PlayModeEyewearDevice_t2403363459), -1, 0, 0 };
+extern const int32_t g_FieldOffsetTable2499[3] = 
 {
 	PlayModeEyewearDevice_t2403363459::get_offset_of_mProfileManager_1(),
 	PlayModeEyewearDevice_t2403363459::get_offset_of_mCalibrator_2(),
 	PlayModeEyewearDevice_t2403363459::get_offset_of_mDummyPredictiveTracking_3(),
-};
-extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize2499 = { sizeof (DedicatedEyewearDevice_t2070131990), -1, 0, 0 };
-extern const int32_t g_FieldOffsetTable2499[2] = 
-{
-	DedicatedEyewearDevice_t2070131990::get_offset_of_mProfileManager_1(),
-	DedicatedEyewearDevice_t2070131990::get_offset_of_mCalibrator_2(),
 };
 #ifdef __clang__
 #pragma clang diagnostic pop

@@ -94,6 +94,8 @@
     <Compile Include="Assets\AudioScripts\SpeakerRouting.cs" />
     <Compile Include="Assets\AudioScripts\VoiceFXModulations.cs" />
     <Compile Include="Assets\AudioScripts\WeatherAnimator.cs" />
+    <Compile Include="Assets\Scripts\DotTrail.cs" />
+    <Compile Include="Assets\Scripts\LessonBehavior.cs" />
     <Compile Include="Assets\Scripts\NoteBehavior.cs" />
     <Compile Include="Assets\Scripts\NoteFactory.cs" />
     <Compile Include="Assets\Scripts\PitchDetectDemo.cs" />
@@ -101,6 +103,7 @@
     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
+    <None Include="Assets\StreamingAssets\Vuforia\MatthewHallberg.xml" />
     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
     <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
@@ -109,7 +112,6 @@
     <None Include="Assets\Vuforia\Shaders\DepthMask.shader" />
     <None Include="Assets\Vuforia\Shaders\BrightTexture.shader" />
     <None Include="Assets\Vuforia\Shaders\DepthContour.shader" />
-    <None Include="Assets\StreamingAssets\Vuforia\MatthewHallberg.xml" />
     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
     <Reference Include="com.unity.render-pipelines.core.Editor">
       <HintPath>/Users/matthew/Desktop/AR_Guitar/Library/ScriptAssemblies/com.unity.render-pipelines.core.Editor.dll</HintPath>

@@ -1,11 +1,9 @@
 ﻿<Properties StartupConfiguration="{71EEF341-143B-EC2C-59F6-3690C0DD443E}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/AudioScripts/PitchDetector.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LessonBehavior.cs">
     <Files>
-      <File FileName="Assets/Scripts/NoteFactory.cs" Line="12" Column="28" />
-      <File FileName="Assets/Scripts/NoteBehavior.cs" Line="13" Column="57" />
-      <File FileName="Assets/AudioScripts/PitchDetector.cs" Line="10" Column="2" />
-      <File FileName="Assets/AudioScripts/MicrophoneFeed.cs" Line="8" Column="9" />
+      <File FileName="Assets/Scripts/LessonBehavior.cs" Line="26" Column="35" />
+      <File FileName="Assets/Scripts/DotTrail.cs" Line="35" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

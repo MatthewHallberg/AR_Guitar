@@ -540,6 +540,8 @@ struct TooltipAttribute_t3957072629;
 struct TouchScreenKeyboard_t731888065;
 // UnityEngine.TrackedReference
 struct TrackedReference_t1199777556;
+// UnityEngine.TrailRenderer
+struct TrailRenderer_t1820797054;
 // UnityEngine.Transform
 struct Transform_t3600365921;
 // UnityEngine.Transform/Enumerator
@@ -11933,6 +11935,26 @@ public:
 #pragma clang diagnostic pop
 #endif
 #endif // SPRITERENDERER_T3235626157_H
+#ifndef TRAILRENDERER_T1820797054_H
+#define TRAILRENDERER_T1820797054_H
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+
+// UnityEngine.TrailRenderer
+struct  TrailRenderer_t1820797054  : public Renderer_t2627027031
+{
+public:
+
+public:
+};
+
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#endif // TRAILRENDERER_T1820797054_H
 // System.Byte[]
 struct ByteU5BU5D_t4116647657  : public RuntimeArray
 {
@@ -30911,6 +30933,23 @@ IL_0012:
 		int32_t L_2 = V_0;
 		return L_2;
 	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void UnityEngine.TrailRenderer::set_emitting(System.Boolean)
+extern "C" IL2CPP_METHOD_ATTR void TrailRenderer_set_emitting_m1030940465 (TrailRenderer_t1820797054 * __this, bool ___value0, const RuntimeMethod* method)
+{
+	typedef void (*TrailRenderer_set_emitting_m1030940465_ftn) (TrailRenderer_t1820797054 *, bool);
+	static TrailRenderer_set_emitting_m1030940465_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (TrailRenderer_set_emitting_m1030940465_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TrailRenderer::set_emitting(System.Boolean)");
+	_il2cpp_icall_func(__this, ___value0);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
